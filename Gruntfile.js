@@ -38,4 +38,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-simple-watch');
 	grunt.loadNpmTasks('grunt-rsync');
 	grunt.loadNpmTasks('grunt-git');
+	grunt.registerTask('default', ['simple-watch']);
 };
