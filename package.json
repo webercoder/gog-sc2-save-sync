@@ -1,0 +1,17 @@
+{
+  "name": "sc2-saved-games",
+  "version": "1.0.0",
+  "description": "== SimCity Saves ==",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-git": "^0.3.5",
+    "grunt-rsync": "^0.6.2",
+    "grunt-simple-watch": "^0.1.3"
+  }
+}
